@@ -18,7 +18,7 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "test": "web-test-runner \"src/**/*.test.ts\"",
+    "test": "web-test-runner \"src/**/*.test.ts\""
   },
   "dependencies": {
     "svelte": "^3.24.0"

@@ -1,11 +1,11 @@
 <script lang="ts">
   let header: string;
 
-  header = "header";
+  header = "something";
 </script>
 
 <header class="header">
-  This Is the {header}
+  This is {header}
 </header>
 
 <style lang="scss">

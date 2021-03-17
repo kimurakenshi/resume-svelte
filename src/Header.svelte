@@ -1,11 +1,16 @@
 <script lang="ts">
-  let header: string;
+  import Title from "./Title.svelte";
+  import { createEventDispatcher } from "svelte";
 
-  header = "something";
+  const dispatch = createEventDispatcher();
+
+  function handleCLick() {
+    dispatch("header-clicked", { text: "Head component was clicked" });
+  }
 </script>
 
-<header class="header">
-  This is {header}
+<header class="header" on:click={handleCLick}>
+  <Title title="My First Svelte App" subtitle="Some catchy text here" />
 </header>
 
 <style lang="scss">

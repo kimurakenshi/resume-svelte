@@ -8,14 +8,14 @@
   }
 </script>
 
-<button {id} on:click={increment}>
+<button {id} on:click={increment} class="text-8xl">
   Clicks: {$count}
 </button>
 
 <style>
   button {
     font-family: inherit;
-    font-size: inherit;
+    /*font-size: inherit;*/
     padding: 1em 2em;
     color: #ff3e00;
     background-color: rgba(255, 62, 0, 0.1);

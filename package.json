@@ -7,7 +7,6 @@
     "dev:routify": "routify",
     "dev:vite": "vite",
     "format": "pretty-quick",
-    "prepare": "husky install",
     "serve": "vite preview",
     "svelte-check": "svelte-check"
   },

@@ -1,29 +1,29 @@
 <script lang="ts">
-  import { getStore } from './hmr-stores'
-  export let id: string
+  import { getStore } from './hmr-stores';
+  export let id: string;
 
-  const count = getStore(id, 0)
+  const count = getStore(id, 0);
   const increment = () => {
-    $count += 1
-  }
+    $count += 1;
+  };
 </script>
 
 <button {id} on:click={increment}>
   Clicks: {$count}
 </button>
 
-<style>
+<style lang="scss">
   button {
     font-family: inherit;
-    font-size: inherit;
     padding: 1em 2em;
     color: #ff3e00;
-    background-color: rgba(255, 62, 0, 0.1);
     border-radius: 2em;
     border: 2px solid rgba(255, 62, 0, 0);
     outline: none;
     width: 200px;
     font-variant-numeric: tabular-nums;
+
+    @apply bg-red-100;
   }
 
   button:focus {

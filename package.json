@@ -10,7 +10,7 @@
     "serve": "vite preview",
     "svelte-check": "svelte-check --fail-on-warnings",
     "lint:check": "eslint --ignore-path .gitignore \"src/**/*.{ts,js,svelte}\"",
-    "lint:fix": "eslint --ignore-path .gitignore \"src/**/*.{ts,js,svelte}\" --quiet --fix"
+    "lint:fix": "eslint --ignore-path .gitignore \"src/**/*.{ts,js,svelte}\" --fix"
   },
   "devDependencies": {
     "@roxi/routify": "^2.15.1",

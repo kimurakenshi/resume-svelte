@@ -1,8 +1,14 @@
-<nav>
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-</nav>
+<script lang="ts">
+  import Footer from '../lib/Footer.svelte';
+  // import Footer from '@/lib/Footer.svelte';
+</script>
 
-<main>
+<div class="h-screen font-default">
+  <!--  <Header />-->
+
+  <!--  <Nav />-->
+
   <slot />
-</main>
+
+  <Footer />
+</div>

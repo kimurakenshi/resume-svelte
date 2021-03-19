@@ -6,9 +6,9 @@
     "dev": "run-p dev:*",
     "dev:routify": "routify",
     "dev:vite": "vite",
-    "format": "pretty-quick",
+    "format": "pretty-quick --ignore-path .gitignore",
     "serve": "vite preview",
-    "svelte-check": "svelte-check",
+    "svelte-check": "svelte-check --fail-on-warnings",
     "lint:check": "eslint --ignore-path .gitignore \"src/**/*.{ts,js,svelte}\"",
     "lint:fix": "eslint --ignore-path .gitignore \"src/**/*.{ts,js,svelte}\" --quiet --fix"
   },

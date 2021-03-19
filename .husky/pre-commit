@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npm run lint:fix
-npm run svelte-check -- --fail-on-warnings
+npm run svelte-check
 npm run format --staged

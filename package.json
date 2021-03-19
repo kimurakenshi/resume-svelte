@@ -7,8 +7,9 @@
     "dev:routify": "routify",
     "dev:vite": "vite",
     "format": "pretty-quick --ignore-path .gitignore",
+    "format:check": "pretty-quick --check --ignore-path .gitignore",
     "serve": "vite preview",
-    "svelte-check": "svelte-check --fail-on-warnings",
+    "svelte:check": "svelte-check --fail-on-warnings",
     "lint:check": "eslint --ignore-path .gitignore \"src/**/*.{ts,js,svelte}\"",
     "lint:fix": "eslint --ignore-path .gitignore \"src/**/*.{ts,js,svelte}\" --fix"
   },

@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [svelte(), WindiCSS()],
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src'),
+      $lib: resolve(__dirname, 'src/lib'),
     },
   },
 });

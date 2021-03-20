@@ -1,6 +1,5 @@
 <script lang="ts">
-  import Footer from '../lib/Footer.svelte';
-  // import Footer from '@/lib/Footer.svelte';
+  import Footer from '$lib/Footer.svelte';
 </script>
 
 <div class="h-screen font-default">

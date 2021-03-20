@@ -21,6 +21,13 @@ module.exports = {
   },
   settings: {
     'svelte3/typescript': require('typescript'), // pass the TypeScript package to the Svelte plugin
-    // ...
+    'import/resolver': {
+      'eslint-import-resolver-custom-alias': {
+        alias: {
+          $lib: 'src/lib',
+        },
+        extensions: ['.js', '.ts', '.svelte'],
+      },
+    },
   },
 };

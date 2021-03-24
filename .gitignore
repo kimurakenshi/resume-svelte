@@ -35,3 +35,11 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# svelte
+/.svelte
+/build
+/functions
+
+# vercel
+.vercel_build_output

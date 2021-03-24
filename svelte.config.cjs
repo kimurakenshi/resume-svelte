@@ -11,7 +11,7 @@ module.exports = {
   preprocess: [
     sveltePreprocess.typescript(),
     svelteWindiCSSPreprocess.preprocess({
-      config: 'tailwind.config.js',
+      // config: 'tailwind.config.js',
       compile: false,
       prefix: 'windi-',
       globalPreflight: true,

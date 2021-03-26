@@ -5,6 +5,11 @@
   */
 	import '../core/styles/globals.scss';
 	import Footer from '$core/components/Footer.svelte';
+	import { onMount } from 'svelte';
+	import { theme } from '$core/theme';
+
+	// @todo: if this run for every page I should remove it from here.
+	onMount(() => theme.initializeTheme());
 </script>
 
 <div class="h-screen font-default">

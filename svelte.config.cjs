@@ -33,7 +33,8 @@ module.exports = {
 			},
 			resolve: {
 				alias: {
-					$components: path.resolve(__dirname, 'src/components')
+					$components: path.resolve(__dirname, 'src/components'),
+					$core: path.resolve(__dirname, 'src/core')
 				}
 			}
 		}

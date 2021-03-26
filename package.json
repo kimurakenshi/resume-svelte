@@ -5,7 +5,7 @@
 		"build": "svelte-kit build",
 		"dev": "svelte-kit dev",
 		"format": "prettier --ignore-path .gitignore --write .",
-		"format:check": "pretty --ignore-path .gitignore --check",
+		"format:check": "pretty-quick --ignore-path .gitignore --check",
 		"format:staged": "pretty-quick --ignore-path .gitignore --staged",
 		"lint:check": "eslint --ignore-path .gitignore .",
 		"lint:fix": "eslint --ignore-path .gitignore --fix .",

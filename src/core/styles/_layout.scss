@@ -1,13 +1,7 @@
-@use "./_variables.scss" as glob-var;
-
 .page--min-height {
-	min-height: calc(
-		100vh - #{glob-var.$header-height-small} - #{glob-var.$footer-height} - #{glob-var.$nav-height}
-	);
+	min-height: calc(100vh - var(--header-height-small) - var(--footer-height) - var(--nav-height));
 
 	@screen md {
-		min-height: calc(
-			100vh - #{glob-var.$header-height} - #{glob-var.$footer-height} - #{glob-var.$nav-height}
-		);
+		min-height: calc(100vh - var(--header-height) - var(--footer-height) - var(--nav-height));
 	}
 }

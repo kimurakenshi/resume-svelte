@@ -4,8 +4,15 @@
     so hopefully it doesn't load the styles multiple times
   */
 	import '../core/styles/globals.scss';
+	import Footer from '$core/components/Footer.svelte';
 </script>
 
-<main>
+<div class="h-screen font-default">
+	<!--	<Header />-->
+
+	<!--	<Nav />-->
+
 	<slot />
-</main>
+
+	<Footer />
+</div>

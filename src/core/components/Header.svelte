@@ -7,7 +7,7 @@
 	class="flex justify-between items-center bg-gradient-to-r from-indigo-900 via-indigo-800 to-indigo-900 text-white header"
 >
 	<div class="text-white opacity-80 header__logo">
-		<Logo customClasses="text-green-300" />
+		<Logo />
 	</div>
 
 	<h1 class="capitalize font-default text-xl md:text-3xl">Sebasti&aacute;n Giraudo</h1>

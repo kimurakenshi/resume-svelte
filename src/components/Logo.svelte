@@ -1,4 +1,8 @@
-<a href="/">
+<script lang="ts">
+	import { fade } from 'svelte/transition';
+</script>
+
+<a href="/" transition:fade>
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		viewBox="0 0 251 289.83"

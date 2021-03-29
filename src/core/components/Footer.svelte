@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { ThemeName } from '$core/theme';
-	import { theme } from '$core/theme';
+	import { ThemeName, theme } from '$core/theme';
 </script>
 
 <footer

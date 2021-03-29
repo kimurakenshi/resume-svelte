@@ -1,1 +1,0 @@
-<button>Theme Switcher</button>

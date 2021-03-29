@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../core/styles/globals.scss';
+	import '../core/styles/global.scss';
 	import Footer from '$core/components/Footer.svelte';
 	import Header from '$core/components/Header.svelte';
 	import { onMount } from 'svelte';

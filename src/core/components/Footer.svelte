@@ -1,13 +1,9 @@
 <script lang="ts">
-	import { Theme } from '$core/theme';
-
-	let state = {
-		theme: Theme.LIGHT
-	};
+	import { ThemeName, theme } from '$core/theme';
 </script>
 
 <footer
-	class={state.theme === Theme.DARK
+	class={$theme === ThemeName.DARK
 		? 'background on-background text-center footer'
 		: 'bg-blue-800 bg-opacity-90 text-gray-100 text-center footer'}
 >

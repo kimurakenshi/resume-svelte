@@ -3,7 +3,7 @@ const { tailwindExtractor } = require('tailwindcss/lib/lib/purgeUnusedStyles');
 module.exports = {
 	darkMode: 'class',
 	purge: {
-		content: ['./src/**/*.{html,js,svelte,ts}'],
+		content: ['./src/**/*.{html,js,svelte,ts,svx}'],
 		options: {
 			defaultExtractor: (content) => [
 				// If this stops working, please open an issue at https://github.com/svelte-add/tailwindcss/issues rather than bothering Tailwind Labs about it
@@ -22,5 +22,5 @@ module.exports = {
 	variants: {
 		extend: {}
 	},
-	plugins: []
+	plugins: [require('@tailwindcss/typography')]
 };

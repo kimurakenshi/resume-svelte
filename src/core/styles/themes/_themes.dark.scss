@@ -1,0 +1,62 @@
+// Overrides base styles when Tailwind CSS dark mode is enabled.
+.dark {
+	.background {
+		@apply bg-black;
+	}
+
+	.on-background {
+		@apply text-white;
+	}
+
+	.surface {
+		@apply bg-gray-900;
+		@apply bg-opacity-80;
+	}
+
+	.on-surface {
+		@apply text-white;
+	}
+
+	.primary {
+		background: rgb(98, 60, 234);
+	}
+
+	.primary-variant {
+		@apply bg-purple-800;
+	}
+
+	.on-primary {
+		@apply text-black;
+	}
+
+	.secondary {
+		background: rgb(84, 66, 107);
+	}
+
+	.secondary-variant {
+		@apply bg-green-600;
+	}
+
+	.on-secondary {
+		@apply text-white;
+	}
+
+	.shadow {
+		box-shadow: 0px 13px 40px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.2);
+	}
+
+	.prose {
+		@apply text-gray-400;
+
+		h1,
+		h2,
+		h3,
+		h4 {
+			@apply text-gray-200;
+		}
+
+		strong {
+			@apply text-gray-500;
+		}
+	}
+}

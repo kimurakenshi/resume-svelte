@@ -1,0 +1,46 @@
+.Typewriter {
+	@apply z-10;
+}
+
+.prose {
+	@apply text-sm;
+
+	@screen md {
+		@apply text-base;
+	}
+
+	h5 {
+		text-decoration: underline;
+		font-weight: bold;
+
+		@apply text-sm;
+
+		@screen md {
+			@apply text-lg;
+		}
+	}
+
+	h4 {
+		@apply text-base;
+
+		@screen md {
+			@apply text-xl;
+		}
+	}
+
+	h3 {
+		@apply text-lg;
+
+		@screen md {
+			@apply text-xl;
+		}
+	}
+
+	h2 {
+		@apply text-2xl;
+
+		@screen md {
+			@apply text-3xl;
+		}
+	}
+}

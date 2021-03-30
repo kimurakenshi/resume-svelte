@@ -1,0 +1,39 @@
+.background {
+	@apply bg-gray-100;
+}
+
+.on-background {
+	@apply text-black;
+}
+
+.surface {
+	@apply bg-white;
+}
+
+.on-surface {
+	@apply text-black;
+}
+
+.primary {
+	background: rgb(98, 60, 234);
+}
+
+.primary-variant {
+	@apply bg-purple-800;
+}
+
+.on-primary {
+	@apply text-black;
+}
+
+.secondary {
+	background: rgb(84, 66, 107);
+}
+
+.secondary-variant {
+	@apply bg-green-600;
+}
+
+.on-secondary {
+	@apply text-white;
+}

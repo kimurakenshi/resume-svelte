@@ -43,3 +43,7 @@ yarn-error.log*
 
 # vercel
 .vercel_build_output
+
+#eslint
+.eslintcache
+

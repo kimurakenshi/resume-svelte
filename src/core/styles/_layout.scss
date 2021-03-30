@@ -1,0 +1,7 @@
+.page--min-height {
+	min-height: calc(100vh - var(--header-height-small) - var(--footer-height) - var(--nav-height));
+
+	@screen md {
+		min-height: calc(100vh - var(--header-height) - var(--footer-height) - var(--nav-height));
+	}
+}

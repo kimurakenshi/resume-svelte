@@ -1,0 +1,186 @@
+<script lang="ts">
+	import Page from '$components/Page.svelte';
+</script>
+
+<Page description="Resume information" title="Resume" hasMarkdown >
+
+## Career Summary
+
+Sebastian has twelve years of experience in web and desktop applications development.
+
+He started his career working as a developer for a CRM product, with tech stack in VB6 and SQL server 2000. After a web development certification, he moved on to work on tools such as ASP.NET, .NET Framework 3.5, C#, Javascript, MVP/MVC, and NHibernate.
+Later on he focused on building Single Page Applications with AngularJS, ReactJS, Webpack, CSS3, SASS, Bower, Grunt and NodeJS.
+
+For the last three years, his role has evolved to a Solution Architect, building UI libraries, managing teams, mentoring, training resources and overseeing several projects to guarantee that the delivery of each project meets the client expectations and every resource develops a successful career path inside his company.
+
+## Skills
+
+<ul class="grid grid-cols-2 md:grid-cols-3">
+  <li>Javascript</li>
+  <li>ReactJS</li>
+  <li>AngularJS</li>
+  <li>Angular</li>
+  <li>jQuery</li>
+  <li>Redux</li>
+  <li>NextJS</li>
+  <li>NodeJS</li>
+  <li>SSR</li>
+  <li>CSS</li>
+  <li>SASS</li>
+  <li>SASS Modules</li>
+  <li>Design Systems / UI Components</li>
+  <li>HTML5</li>
+  <li>Semantic HTML</li>
+  <li>SEO</li>
+  <li>Accessibility</li>
+  <li>Gulp</li>
+  <li>Webpack</li>
+  <li>Rollup</li>
+  <li>Protractor</li>
+  <li>Cypress</li>
+  <li>Jest</li>
+  <li>Karma</li>
+  <li>Selenium</li>
+  <li>Puppeteer</li>
+  <li>.NET</li>
+  <li>MVP</li>
+  <li>NHibernate</li>
+  <li>C#</li>
+  <li>SQL Server</li>
+  <li>Postgres</li>
+  <li>Oracle</li>
+  <li>Agile Methodologies</li>
+  <li>Leadership / Team management / Mentoring</li>
+  <li>Organizational skills</li>
+  <li>Communication skills</li>
+  <li>Time management</li>
+</ul>
+
+## Languages
+
+- Spanish (Native Speaker)
+- English (Advanced)
+
+## Career History
+
+### Solution Architect | Feb 2018 - Present
+
+---
+
+#### Ernst & Young, Pasadena, CA
+
+##### Shared Trust | Sept 2020 - Present
+
+- Provide direction in the architecture of the front-end application built with Angular.
+- Perform code reviews.
+- Promote best practices, mentor developers, resolve technical blockers.
+- Improve the life cycle of the development process.
+
+#### Disney DTCI, Glendale, CA
+
+##### Disney Ordering Tool | Apr 2020 - Sept 2020
+
+- Maintained and developed new features for Disney Ordering Tool application with NextJS, Postgres, ExpressJs and Sladesforce. This application was in charge of generating contracts between Disney and its external recipients to specify content availability for Disney’s titles and TV series.
+- Defined a workflow that scales and was able to track and manage the fulfillment of all the assets involved in every DOT’s order.
+- Participated in the re-architecture of multiple applications and services that were in charge of processing a large volume of orders from multiple sources (ex: Disney+).
+
+#### Disney Studios, Burbank, CA
+
+##### HEX | May 2019 - Apr 2020
+
+- Built UI library for Disney’s internal applications using Material Design, VanillaJS and SASS Modules.
+- Worked with a UX team to design each UI component considering usability, accessibility, look & feel and design standards to provide a modern UI experience at every level.
+- Architecture de UI library in terms of modulations of components, publishing strategies, documentation and compatibility and integration with the most popular UI frameworks.
+- Led other engineers to make sure their work was always aligned with the architecture and vision of the library that was being built.
+
+##### Riley | Apr 2019 - May 2019
+
+- Built an application with ReactJS and Salesforce to allow 12 Disney Studios Marketing departments to work in a collaborative way by making key marketing information available across the organization.
+- Helped to create a workflow where users can collaborate on the definition and publication of strategies, plans and milestones that aim to market theatrical releases.
+- Provided guidance and definition on the creation of each UI component and the interaction between them.
+
+##### ISP | Jan 2019 - Apr 2020
+
+- Provided technical support and guidance to engineers that were in charge of maintaining and developing features for an assets management application built with Angular 2, Webpack, Typescript and CSS.
+- Helped with the migration of the tech stack to a more modern set of technologies to take advantage of more modern toolings and languages like Typescript, Webpack and Docker.
+
+##### MPS | Apr 2018 - May 2019
+
+- Defined the architecture of a full-stack application built with ReactJS, Django and Postgres to manage the process of delivering assets to Disney’s retailers.
+- Defined a development workflow to improve efficiency and communication between all the teams that were involved in the process of building this application.
+- Provided technical direction to other engineers, performed code reviews and mentoring.
+
+##### SONAR | Feb 2018 - Apl 2018
+
+- Worked on the maintenance and development of features in an asset management application responsible for managing metadata of titles and tv series that are then processed and registered through an external service.
+- Helped to maintain the architecture of a full-stack application build with Angular, Sequelize and EspressJS.
+- Organized learning sessions with the team members to teach key concepts for the tech stack that was being used in the project.
+
+### Sr Full-Stack Developer / Technical Leader | Apr 2008 - Jan 2018
+
+---
+
+#### Disney Studios, Burbank, CA
+
+##### Movies Anywhere | Oct 2016 - Jan 2018
+
+- Built a customer facing application to play movies, watch trailers and manage user content using ReactJS, Webpack, GraphQL, ExpressJS and VideoJS.
+- Implemented the purchase process to allow the integration of external providers such as Amazon, Google and Vudu.
+- Helped with the integration of a custom video player with support for DRM content.
+- Implemented social login (Google/Facebook).
+- Implemented support for Chromecast player.
+- Led the FE team during the last stage of the project including the release to production/
+
+##### BackOffice | Aug 2016 - Oct 2016
+
+- Built a Content Management System (CMS) to create and manage digital content related to Disney Movies Anywhere web application using ReactJS, Webpack and React Material UI.
+- Defined a workflow to manage digital assets such as videos, subtitles and images from the moment the assets are created until it is published in a live environment.
+- Defined user profiles and access rights depending on the role of the user in the company.
+
+##### Crux | Mar 2016 - Jul 2016
+
+- Maintained a Content Management System (CMS) to create and manage digital content related to Disney Movies Anywhere web application that was built with AngularJs.
+- Led the architecture and development with a more scalable and maintainable approach to make the transition to a more modern tech stack seamless.
+- Worked with the UX term in redefining the user experience of the entire application to enhance and increase the overall experience for Content Producers that were using this application.
+
+#### Sears Holdings, Chicago, IL
+
+##### While Label Cart & Checkout | Aug 2013 - Mar 2016
+
+- Built a mobile checkout for Sears, Kmart and Shop Your Way clients using AngularJS.
+- Integrated the Web application with native applications (iOS and Android).
+- Worked on legacy code and in a fully reengineering version of the application.
+- Led offshore development.
+
+##### Kmart | Jul 2013 - Aug 2016
+
+- Built an In-store kiosk experience on top of a 21’ Viewsonic Android tablet using AngularJS.
+- Implemented solutions always keeping in mind the restrictions and extra complexities involved in the creation of a lean UI restricted to hardware limitations and heavy interaction with native layers to support extended devices such as CTT readers and scanners.
+
+#### Globant, Córdoba, AR
+
+##### Entropy5 | Jun 2012 - Jun 2013
+
+- Built a Quality system for document management using VS 2010 (C#), NHibernate, jQuery and MVC 3 for the British Standard Institute.
+- Implemented a change history module using generic and highly reusable to integrate with the current workflow of quality documents the systems was supporting to allow tracking changes and field level and storing them for future reference.
+
+#### Vanguardia, Córdoba, AR
+
+##### Encode | Feb 2012 - Jun 2012
+
+- Built a digital signature for PDF documents on Windows Phone using VS 2010, Windows Phone SDK 7.1, WCF and iTextSharp.
+  Cordobas’s DMV Records System | Jun 2010 - Feb 2012
+- Built a web application for the National registry of traffic tickets and driving records in Argentina using VS 2008, ASP .NET, WCF, jQuery 1.4. and Oracle.
+
+##### ERP System | Apr 2008 - Jun 2010
+
+- Built an Enterprise objectives and resources planning system using Visual Basic 6 y SQL Server 2000.
+
+## Education
+
+**BS Engineering Technology** <br/>
+National Technological University, Córdoba, Argentina, June 2011
+
+
+
+</Page>

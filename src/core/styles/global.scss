@@ -1,0 +1,26 @@
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Variables
+@import 'variables';
+
+// Font
+@import 'font';
+
+// Layout
+@import 'layout';
+
+// Background
+@import 'bg-utils';
+
+// Animations
+@import 'animation';
+
+// Overwrites
+@import 'overwrites';
+
+// Themes
+@import 'themes/themes.light';
+@import 'themes/themes.dark';

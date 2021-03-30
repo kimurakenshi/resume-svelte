@@ -1,0 +1,24 @@
+@keyframes spin-a {
+	0% {
+		transform: rotateZ(0deg);
+	}
+	100% {
+		transform: rotateZ(360deg);
+	}
+}
+
+.spin {
+	animation: spin-a 40s linear infinite;
+}
+
+.spin--normal {
+	animation-duration: 30s;
+}
+
+.spin--slow {
+	animation-duration: 55s;
+}
+
+.spin--slower {
+	animation-duration: 80s;
+}

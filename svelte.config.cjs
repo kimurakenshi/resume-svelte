@@ -1,6 +1,5 @@
 const path = require('path');
 const sveltePreprocess = require('svelte-preprocess');
-const svelteWindiCSSPreprocess = require('svelte-windicss-preprocess');
 const vercel = require('@sveltejs/adapter-vercel');
 const pkg = require('./package.json');
 
@@ -9,13 +8,11 @@ module.exports = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
 	preprocess: [
-		sveltePreprocess.typescript(),
-		svelteWindiCSSPreprocess.preprocess({
-			config: 'tailwind.config.cjs',
-			compile: false,
-			prefix: 'windi-',
-			globalPreflight: true,
-			globalUtility: true
+		sveltePreprocess({
+			defaults: {
+				style: 'postcss'
+			},
+			postcss: true
 		})
 	],
 	kit: {

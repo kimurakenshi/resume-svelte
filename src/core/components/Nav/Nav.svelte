@@ -1,10 +1,13 @@
 <script>
 	import NavLink from './NavLink.svelte';
 	import Logo from '$components/Logo.svelte';
+	import { HEADER_HEIGHT } from '../../core.constants';
 
-	// @todo: this should be determined by the scroll position
-	let isStickyNav = false;
+	let scrollYPosition = 0;
+	$: isStickyNav = scrollYPosition > HEADER_HEIGHT - 20;
 </script>
+
+<svelte:window bind:scrollY={scrollYPosition} />
 
 <nav
 	class={isStickyNav
@@ -13,7 +16,7 @@
 >
 	<div class="absolute left-5 ml-1 nav__logo">
 		{#if isStickyNav}
-			<Logo class="nav__logo object-contain" />
+			<Logo class="nav__logo object-contain" animate />
 		{/if}
 	</div>
 

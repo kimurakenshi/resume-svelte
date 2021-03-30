@@ -1,11 +1,16 @@
 <script lang="ts">
-	import { fade } from 'svelte/transition';
-
+	import { fly } from 'svelte/transition';
 	export let classes = '';
+	export let animate = false;
 </script>
 
-<a href="/" transition:fade>
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 251 289.83" class="h-full w-full {classes}">
+<a href="/">
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 251 289.83"
+		class="h-full w-full {classes}"
+		transition:fly={animate ? { y: -50, duration: 1500 } : {}}
+	>
 		<g id="ff54bac8-37e3-4cb5-8efe-0fc80bc688a6">
 			<g id="f1423fe8-0791-48ce-86fb-1edf9bb22fd9">
 				<polygon

@@ -1,5 +1,10 @@
-// Animations
-//@import '~animate.css';
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Variables
+@import 'variables';
 
 // Font
 @import 'font';

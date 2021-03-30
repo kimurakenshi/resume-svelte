@@ -4,19 +4,15 @@
 	import Header from '$core/components/Header.svelte';
 	import { onMount } from 'svelte';
 	import { theme } from '$core/theme';
+	import Nav from '$core/components/Nav/Nav.svelte';
 
-	// @todo: if this run for every page I should remove it from here.
 	onMount(() => theme.initializeTheme());
 </script>
 
 <div class="h-screen font-default">
 	<Header />
 
-	<!--	<Nav />-->
-	<nav>
-		<a href="/">Home</a>
-		<a href="/about">About</a>
-	</nav>
+	<Nav />
 
 	<slot />
 

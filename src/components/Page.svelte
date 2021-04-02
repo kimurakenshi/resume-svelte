@@ -1,28 +1,19 @@
 <script lang="ts">
+	import Background from './Background.svelte';
 	export let title = '';
 	export let description = '';
 	export let customClasses = '';
+	export let bgClasses = 'background on-background';
 	export let hasSpacing = true;
 	export let hasMarkdown = false;
-	export let imageIndex = 0;
-	export let items = [
-		{
-			id: 1,
-			classNames: 'background on-background'
-		}
-	];
 </script>
 
 <svelte:head>
 	<meta name="Description" content={description} />
 	<title>{title}</title>
 </svelte:head>
-<!--	@todo: remove background class from here once parallax is implemented-->
-<div class="background on-background font-default relative ">
-	<!--	@todo: it depends on Background component-->
-	<!--{items && items.length > 0 && (-->
-	<!--  <Background currentItemIndex={imageIndex} items={items} />-->
-	<!--)}-->
+<div class="font-default relative">
+	<Background classNames={bgClasses} />
 
 	<main
 		class={hasSpacing

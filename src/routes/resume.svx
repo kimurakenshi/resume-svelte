@@ -172,6 +172,10 @@ For the last three years, his role has evolved to a Solution Architect, building
   Cordobas’s DMV Records System | Jun 2010 - Feb 2012
 - Built a web application for the National registry of traffic tickets and driving records in Argentina using VS 2008, ASP .NET, WCF, jQuery 1.4. and Oracle.
 
+##### Cordoba’s DMV Records System | Jun 2010 - Feb 2012
+
+- Built a web application for the National registry of traffic tickets and driving records in Argentina using VS 2008, ASP .NET, WCF, jQuery 1.4. and Oracle.
+
 ##### ERP System | Apr 2008 - Jun 2010
 
 - Built an Enterprise objectives and resources planning system using Visual Basic 6 y SQL Server 2000.
